@@ -36,9 +36,9 @@
 - перейти во вкладку Repositories и нажать кнопку New
 - в открывшемся окне выбрать название, совпадающее с папкой локального репозитория и нажать Create repository
 - связать удаленный репозиторий с локальным, для этого в терминале из основной папки репозитория выполнить команды:
-``` git remote add origin https://github.com/username/my_project.git
-git branch -M main
-git push -u origin main ```
+``` git remote add origin https://github.com/username/my_project.git ```
+``` git branch -M main ```
+``` git push -u origin main ```
 - для проверки наличия SSH-ключа нужно перейти в рабочую папку и выполнить:
 ``` ls -la .ssh/ ```
 - для генерации SSH-ключа введите в терминале команду:
